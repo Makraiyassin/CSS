@@ -1,0 +1,14 @@
+
+.menu li{
+  display: inline;
+  margin-right: 1px ;
+
+}
+.menu li a {
+  padding: 4px 10px ;
+  color: white ;
+  background: blue ;
+  text-align: center ;
+  text-decoration: none ;
+
+}

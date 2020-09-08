@@ -1,0 +1,82 @@
+/* Global resets */
+/* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}*/
+body {
+  margin-left: 30px;
+  margin-right: 75%;
+  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+  color: #777;
+  line-height: 1.4;
+}
+
+/* COLORS:
+  blue: #20A1D4;
+  green: #1CBC2C;
+  orange: #EF5F3C;
+  black: #424242;
+  grey: #777;
+  light grey: #eaeaea;
+*/
+
+/* Your CSS goes here */
+
+h1{
+
+  font-size: 16px;
+  text-align: justify;
+  color: white;
+  padding: 10px 35px;
+  background-color: #424242;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.carré0{
+  padding: 8px;
+  margin-bottom: 0px;
+  border: solid 1px;
+  border-color: #D8D9DA;
+  border-left: 220px solid #EF5F3C;
+
+}
+
+.carré1{
+
+  border: solid 1px;
+  border-color: #D8D9DA;
+  padding: 10px 30px 10px 30px;
+
+}
+
+.only{
+  color:#EF5F3C ;
+  font-weight: bold;
+}
+
+.save p{
+  border: solid 1px;
+  border-color: #D8D9DA;
+  border-radius: 5px;
+  margin-top: 10px;
+  float: left;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+input.dollar{
+  margin-right: 10px;
+  width: 80px;
+  height: 40px;
+}
+input.Give{
+  height: 45px;
+  width: 120px;
+  background-color: #1CBC2C;
+  color: white;
+  align: center;
+  font-weight: bold;
+  border-radius: 5px;
+}

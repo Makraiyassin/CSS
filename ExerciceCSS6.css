@@ -1,0 +1,28 @@
+body{
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 100px;
+  color: white;
+  font-family: sans-serif;
+}
+
+ul{
+  background-color: #0f253d;
+
+}
+
+ul li{
+  display: inline-block;
+  list-style: none ;
+}
+
+li {
+  padding: 40px 50px ;
+  text-align: center ;
+
+}
+
+img{
+  width: 60px;
+  height: 60px;
+}

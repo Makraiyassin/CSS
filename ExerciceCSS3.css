@@ -1,0 +1,51 @@
+
+body{
+  margin-left: 30px;
+}
+h1{
+  font-size: 54px;
+  margin-left: 35px;
+}
+
+img {
+  filter: grayscale(100%);  /*!!!*/
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  z-index: 1;
+}
+/*
+ul{
+  display: inline;
+  margin-right: 1px ;
+
+}*/
+
+ul{
+  list-style: none;
+}
+
+li{
+  float: left;
+  margin-right: 30px;
+  font-size: 24px
+  }
+
+.nom{
+  position: absolute;
+  z-index: 2;
+
+  color: white;
+  padding: 25px 75px;            /*!!!!*/
+  background-color: rgb(78, 85, 99, 0.6);
+  margin-top: 246px;            /*!!!*/
+}
+
+img:hover,
+img:active{
+  filter: none;
+}
+div:hover,
+div:active{
+  background-color: rgb(78, 85, 99);
+}
