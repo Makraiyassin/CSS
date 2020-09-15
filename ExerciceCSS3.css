@@ -2,24 +2,19 @@
 body{
   margin-left: 30px;
 }
+
 h1{
   font-size: 54px;
   margin-left: 35px;
 }
 
 img {
-  filter: grayscale(100%);  /*!!!*/
-  width: 300px;
-  height: 350px;
+  filter: grayscale(100%);
+  width: 350px;
+  height: 410px;
   position: absolute;
   z-index: 1;
 }
-/*
-ul{
-  display: inline;
-  margin-right: 1px ;
-
-}*/
 
 ul{
   list-style: none;
@@ -27,7 +22,6 @@ ul{
 
 li{
   float: left;
-  margin-right: 30px;
   font-size: 24px
   }
 
@@ -36,16 +30,39 @@ li{
   z-index: 2;
 
   color: white;
-  padding: 25px 75px;            /*!!!!*/
-  background-color: rgb(78, 85, 99, 0.6);
-  margin-top: 246px;            /*!!!*/
+  padding: 25px 180px 25px 20px;
+  background-color: rgb(6, 17, 81, 0.6);
+  margin-top: 306px;
+  text-align: justify;
 }
 
-img:hover,
-img:active{
-  filter: none;
+
+.duotone{
+  position: absolute;
+  background-color: rgb(150, 85, 127, 0.6);
+  width: 350px;
+  height: 410px;
+  z-index: 3;
 }
-div:hover,
-div:active{
-  background-color: rgb(78, 85, 99);
+
+.employé1:hover .duotone{
+  background-color: rgb(150, 85, 127, 0);
+}
+.employé1:hover img{
+  filter: grayscale(0%);
+}
+.employé1:hover .nom{
+  background-color: rgb(6, 17, 81);
+}
+a{
+  position: absolute;
+  background-color: rgb(150, 85, 127, 0);
+  width: 350px;
+  height: 410px;
+  z-index: 4;
+  border: none;
+}
+.employé1:hover a{
+  background-color: rgb(150, 85, 127, 0);
+  cursor: pointer;
 }
